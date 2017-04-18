@@ -35,6 +35,14 @@ var colors = { //Replace this color palette with the palette of your target canv
 	19: '#c99789',
 	20: '#636363',
 	21: '#3c3c3c',
+	22: '#acacac',
+	23: '#ce4a34',
+	24: '#a51c12',
+	25: '#622121',
+	26: '#ed905f',
+	27: '#f6c292',
+	28: '#f2a27e',
+	29: '#fbf2d4',
 };
 
 
