@@ -1,6 +1,4 @@
 # CanvasBot
-A Canvas Bot originally made for https://canvas.listen.moe/
-
 This bot will automatically print an image of your choosing in the canvas with a certain delay per pixel drawn.
 
 # Requirements
@@ -36,6 +34,7 @@ node index.js path_to_your_file full
 
 ## Step 3
 Finally, you will execute the script in the browser. You can do this by *__pasting the script in the console__ or using something like __TamperMonkey__*.
+- Goto the Site with the Canvas you want to draw on.
 - Open the __Developer Console__
 - Paste the script from __js.js__
 - Execute the script by entering in the console
