@@ -12,10 +12,6 @@ if(typeof(process.argv[3]) !== "undefined"){
 		ignore_white = false;
 }
 
-// console.log(ignore_white);
-
-// return;
-
 var colors = { //Replace this color palette with the palette of your target canvas
 	0: '#ffffff',
 	1: '#e4e4e4',
@@ -70,7 +66,6 @@ function processImage(img){
 			for (var k = 2; k >= 0; k--) {
 				pixel[k] = img.get(x,y,k);
 			}
-			// console.log(pixel);
 
 			let hex = rgbHex(pixel[0],pixel[1],pixel[2]);
 			let pcolor = nearestColor('#'+hex);
@@ -85,8 +80,6 @@ function processImage(img){
 
 			if((pcolor.name !== "0" && ignore_white) || !ignore_white)
 				nice.push(fp);
-			// else
-			// 	console.log("WHITE IGNORED");
 		}
 	}
 
