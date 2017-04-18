@@ -5,6 +5,7 @@ This bot will automatically print an image of your choosing in the canvas with a
 
 # Requirements
 - Node.js
+- An Image (Only JPG or PNG)
 - A Web Browser with a Developer Console that supports interacting with the page's javascript.
 __(Chrome, Firefox and most standard web browsers will do)__
 
