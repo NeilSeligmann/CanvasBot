@@ -1,4 +1,6 @@
 # CanvasBot
+This bot is meant for https://github.com/xSke/Pxls.
+
 This bot will automatically print an image of your choosing in the canvas with a certain delay per pixel drawn.
 
 # Requirements
