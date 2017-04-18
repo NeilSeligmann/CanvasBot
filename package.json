@@ -1,0 +1,21 @@
+{
+  "name": "canvas_creator",
+  "version": "1.0.0",
+  "description": "A Canvas bot originally made for canvas.listen.moe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neil Seligmann",
+  "license": "MIT",
+  "dependencies": {
+    "get-pixels": "^3.3.0",
+    "nearest-color": "^0.4.0",
+    "rgb-hex": "^2.1.0"
+  },
+  "repository" :
+  { 
+    "type" : "git", 
+    "url" : "https://github.com/NeilSeligmann/CanvasBot.git"
+  }
+}
